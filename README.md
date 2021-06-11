@@ -13,7 +13,7 @@ The following technologies are required in order to complete this phase of the p
 
 - **Git**: We'll be using Git as a version control tool during the course of this program. Not only will you use Git to track changes to your projects, but you'll also use it to collaborate with your trainer and with your fellow associates.
 - **Java SE Development Kit 8**: We will be utilizing Java 8 as our primary language for the duration of the program. This software development kit will provide the compiler and runtime environment needed to quickly and efficiently develop Java applications.
-- **Spring Tool Suite 4**: We will be using Spring Tool Suite 4 as our *integrated development environment* (IDE). Though you don't need an IDE to write code, an IDE provides several features that make rapid development (e.g. quickly writing and refactoring code) easier.
+- **Spring Tool Suite 4.8.1**: We will be using Spring Tool Suite 4 as our *integrated development environment* (IDE). Though you don't need an IDE to write code, an IDE provides several features that make rapid development (e.g. quickly writing and refactoring code) easier. We will be downloading 4.8.1 as some design changes in the underlying Eclipse IDE would require us to install multiple plug-ins if we were using the most current version. 
 - **Apache Maven**: Maven is a software project management and build automation tool. We will use it to manage our projects' builds as it provides dependency management and streamlines several aspects of the testing life cycle.
 - **DBeaver**: DBeaver is a free, open source universal database tool that is compatible with several external data sources. We'll use DBeaver in order to modify our databases (which will be hosted on AWS) and persist data using a simple user interface provided to us by the tool.
 - **Apache Tomcat 9**: During this program, we will explore web development. As a result, we'll need a runtime environment for our web applications. Apache Tomcat provides a web server environment in which we can run our Java code so that we can easily and quickly deploy our web applications.
@@ -88,11 +88,7 @@ Now verify that you have installed Java properly by typing this command:
 
 ### Step 4: Install Spring Tool Suite 4
 
-In order to install Spring Tool Suite 4, run this command in your terminal:
-
-    scoop install sts
-
-If your installation was successful, you should now be able to search for "Spring Tool Suite" in your Windows search bar.
+Skip down the manual install for installing the correct version of STS4 [here](#step-3:-install-spring-tool-suite-4). By default Scoop will install the latest version of STS which we do not want. 
 
 ### Step 5: Install Maven
 
@@ -147,56 +143,7 @@ If the installation was successful, you should be able to search for "Visual Stu
 ### Step 10: Install Git
 While scoop can install Git we HIGHLY recommend a manual install as it allows you to also install some ease-of-life optional features. 
 
-1. Navigate in your browser to [Git's Website](https://git-scm.com/download) and click the latest download for Windows. (For those using a different OS click the appropriate OS and look for the most recent stable release.)
-
-![](./images/Git-Download1.jpg) 
-
-2. Click yes to any security/firewall popup asking if you are sure you want to download the file. 
-
-3. The install file will begin downloading; most browsers will show the file that has just downloaded, click that file when it completes. If you do so skip to step 6. If the download is not apparent on your browser or disappears upon finishing go to step 4. 
-
-![](./images/Git-Download2.jpg)
-
-4. If you were not able to click the install exe file you just downloaded in your browser open your file explorer.
-
-![](./images/Git-File-Explore-Taskbar.jpg)
-
-5. In the window that opens click the "Downloads" folder, use the search bar in the upper right to search "git", and then double click on the Git installer exe file.
-
-![](./images/Git-Downloads-Folder.jpg)
-
-6. Click yes to any security pop-ups asking you if you want to allow the installer to make changes to your computer. 
-
-7. The install wizard will open to guide you through the process of installing Git. Read the license agreement and click "Next." 
-
-![](./images/Git-License.jpg)
-
-8. Accept the default installation path by clicking "Next."
-
-![](./images/Git-Filepath.jpg)
-
-9. Select your components. It is recommended to add a desktop icon. Leave the other boxes in their default setting. Click "Next."
-
-![](./images/Git-Components.jpg)
-
-10. Leave the rest of the set up as the default configuration clicking Next until you get to the experimental options (which you should leave unchecked) and then click Install. This will run the actual install process. 
-
-![](./images/Git-editor.jpg)
-![](./images/Git-PATH.jpg)
-![](./images/Git-HTTPS.jpg)
-![](./images/Git-Line-End-Conversion.jpg)
-![](.images/Git-MinTTY.jpg)
-![](./images/Git-Default-Pull.jpg)
-![](.images/Git-Extras.jpg)
-![](.images/Git-Experimental.jpg)
-
-11. After install you will get a a final window giving you the options to launch Git Bash and view the Readme notes. Select open Git Bash and deselect the view Readme notes. Click "Next."
-
-![](.images/Git-Finished.jpg)
-
-12. When Git Bash opens type "git --version" and hit Enter. If it return the version of Git you installed it correctly. 
-
-![](./images/Git-Version.jpg)
+You can find the manual install instructions [here](#step-1:-install-git).
 
 
 ## Method 2: Manual Installation
@@ -372,9 +319,9 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ### Step 3: Install Spring Tool Suite 4
 
-1. Navigate to the [Spring Tools](https://spring.io/tools) website and download Spring Tools 4 for Eclipse. 
+1. Navigate to the [Spring Tools Github Wiki Previous Versions](https://github.com/spring-projects/sts4/wiki/Previous-Versions) page and scroll down to Spring Tools 4.8.1. Then download the first option, the self-extracting jar. 
 
-![](./images/STS-Web.jpg)
+![](./images/STS-OldVersion.jpg)
 
 2. Once the download has finished go to your downloads folder, search for the spring-tool-suite jar file and double click it to begin the install process. NOTE: STS will install to the directory the jar file is in when you open it. If you would like STS to install to another directory than your downloads directory, move the jar file before opening it.
 
