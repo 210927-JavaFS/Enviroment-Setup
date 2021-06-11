@@ -88,7 +88,7 @@ Now verify that you have installed Java properly by typing this command:
 
 ### Step 4: Install Spring Tool Suite 4
 
-Skip down the manual install for installing the correct version of STS4 [here](#step-3:-install-spring-tool-suite-4). By default Scoop will install the latest version of STS which we do not want. 
+Skip down the manual install Step 3 for installing the correct version of STS4. By default Scoop will install the latest version of STS which we do not want. 
 
 ### Step 5: Install Maven
 
@@ -143,7 +143,7 @@ If the installation was successful, you should be able to search for "Visual Stu
 ### Step 10: Install Git
 While scoop can install Git we HIGHLY recommend a manual install as it allows you to also install some ease-of-life optional features. 
 
-You can find the manual install instructions [here](#step-1:-install-git).
+You can find the manual install instructions in the next section: Step 1.
 
 
 ## Method 2: Manual Installation
